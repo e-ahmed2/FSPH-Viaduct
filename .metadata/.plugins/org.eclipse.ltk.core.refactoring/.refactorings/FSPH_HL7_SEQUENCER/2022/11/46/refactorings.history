@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;PAS_HL7_Generic.parserecore&apos; to &apos;FSPH_CHARM_A19_WEBPAS_QUERY&apos;&#x0D;&#x0A;- Original project: &apos;FSPH_HL7_SEQUENCER&apos;&#x0D;&#x0A;- Destination element: &apos;FSPH_CHARM_A19_WEBPAS_QUERY&apos;&#x0D;&#x0A;- Original element: &apos;PAS_HL7_Generic.parserecore&apos;" description="Copy file" element1="PAS_HL7_Generic.parserecore" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1667772568336" target="/FSPH_CHARM_A19_WEBPAS_QUERY" units="0" version="1.0"/>
+</session>

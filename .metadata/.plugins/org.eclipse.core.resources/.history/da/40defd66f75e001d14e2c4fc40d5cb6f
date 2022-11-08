@@ -1,0 +1,5 @@
+deploy.process.instances.FSPH_WEBPAS_CHARM_HL7=1
+deploy.profiles=runtime_516
+deploy.profiles.connector.runtime_516=CHARM HL7,HL7_CHARM|
+deploy.profiles.listeners.runtime_516=FSPH_WEBPAS_CHARM_HL7.connection_profiles\\FSPH_CHARM_HL7_Listener
+eclipse.preferences.version=1

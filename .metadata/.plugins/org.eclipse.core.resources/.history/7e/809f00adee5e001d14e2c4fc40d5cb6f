@@ -1,0 +1,9 @@
+eclipse.preferences.version=1
+encoding/ADT_CHARM_Parse.map=UTF-16
+encoding/CHARM_Message.rule=UTF-16
+encoding/FSPH_WEBPAS_CHARM_HL7.process=UTF-16
+encoding/FSPH_WEBPAS_CHARM_HL7.process_diagram=UTF-16
+encoding/HL7_2.5_ACK.parserecore=UTF-16
+encoding/HL7_2.5_ADT_Generic.parserecore=UTF-16
+encoding/PAS_HL7_Generic.parserecore=UTF-16
+encoding/string.parserecore=UTF-16

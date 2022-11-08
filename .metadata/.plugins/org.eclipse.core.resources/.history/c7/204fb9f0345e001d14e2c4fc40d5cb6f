@@ -1,0 +1,7 @@
+deploy.process.instances.FSPH_HL7_SEQUENCER=1
+deploy.profiles=,runtime_516
+deploy.profiles.connector.runtime_516=CHARM HL7 PASOut,CHARM_HL7_PASOut_Topic|
+eclipse.preferences.version=1
+temp.deploy.profiles=local_runtime
+temp.deploy.profiles.connector.local_runtime=CHARM HL7 PASOut,CHARM_HL7_PASOut_Topic|
+temp.deploy.profiles.listeners.local_runtime=FSPH_HL7_SEQUENCER.connection_profiles\\FSPH_WEBPAS_ADT_MESSAGES

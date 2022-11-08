@@ -1,0 +1,7 @@
+deploy.process.instances.FSPH_CHARM_A19_WEBPAS_QUERY=1
+deploy.profiles=local_runtime
+deploy.profiles.connector.local_runtime=QUERY WEBPAS,HL7_QUERY_WEBPAS|
+deploy.profiles.listeners.local_runtime=FSPH_CHARM_A19_WEBPAS_QUERY.connection_profiles\\FSPH_HL7_CHARM_A19
+eclipse.preferences.version=1
+temp.deploy.profiles=local_runtime
+temp.deploy.profiles.connector.local_runtime=QUERY WEBPAS,HL7_QUERY_WEBPAS|

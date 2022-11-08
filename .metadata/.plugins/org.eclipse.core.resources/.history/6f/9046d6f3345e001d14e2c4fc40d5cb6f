@@ -1,0 +1,10 @@
+eclipse.preferences.version=1
+encoding//.deploytemp/FSPH_HL7_SEQUENCER/CHARM_HL7_PASOut_Topic.queueconnector=ISO-8859-1
+encoding//.deploytemp/FSPH_HL7_SEQUENCER/FSPH_HL7_SEQUENCER.process=UTF-16
+encoding//.deploytemp/FSPH_HL7_SEQUENCER/FSPH_HL7_SEQUENCER.process_diagram=UTF-16
+encoding//.deploytemp/FSPH_HL7_SEQUENCER/FSPH_HL7_SEQUENCER_FSPH_WEBPAS_ADT_MESSAGES.hl7listener=ISO-8859-1
+encoding//.deploytemp/FSPH_HL7_SEQUENCER/PAS_HL7_Generic.parserecore=UTF-16
+encoding/FSPH_HL7_SEQUENCER.process=UTF-16
+encoding/FSPH_HL7_SEQUENCER.process_diagram=UTF-16
+encoding/PAS_HL7_Generic.parserecore=UTF-16
+encoding/SiteChoice.rule=UTF-16

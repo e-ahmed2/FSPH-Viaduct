@@ -1,0 +1,3 @@
+deploy.process.instances.FSPH_HL7_SEQUENCER=1
+deploy.profiles=local_runtime
+eclipse.preferences.version=1

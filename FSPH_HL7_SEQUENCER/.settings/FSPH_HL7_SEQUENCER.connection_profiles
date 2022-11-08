@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<DataTools.ServerProfiles version="1.0">
+    <profile autoconnect="No" desc="" id="d5841c30-5bfa-11ed-975d-d5f2c241f8f9" name="Webpas_HL7_PASOut_Topic" providerID="com.bf.connectionprofile.queue.connector.connectionProfile">
+        <baseproperties>
+            <property name="connector.queue.destinationtype" value="topic"/>
+            <property name="connector.queue.deliverymode" value="2"/>
+            <property name="connector.base.isiterable" value="false"/>
+            <property name="connector.base.outputschema" value=""/>
+            <property name="connector.base.systemalert.enabled" value="false"/>
+            <property name="connector.queue.additionalproperties" value=""/>
+            <property name="connector.base.enforceconstraints" value="false"/>
+            <property name="connector.base.connectmode" value="session"/>
+            <property name="connector.base.systemalert.queuelimtedtext" value="1000"/>
+            <property name="connector.queue.sequence.check.replay" value="false"/>
+            <property name="connector.base.sendretryinterval" value="30000"/>
+            <property name="connector.base.serialization.type" value="native"/>
+            <property name="connector.messagebanking.failprocessonfailure" value="false"/>
+            <property name="connector.queue.sequence.manager.check" value="false"/>
+            <property name="connector.queue.responsetimeout" value="30000"/>
+            <property name="connector.messagebanking.enabled" value="false"/>
+            <property name="connector.messagebanking.sendalertonfailure" value="false"/>
+            <property name="connector.base.connectretryinterval" value="30000"/>
+            <property name="connector.queue.clientid" value=""/>
+            <property name="connector.queue.type" value="ActiveMq"/>
+            <property name="connector.base.systemalert.retryfailed" value="false"/>
+            <property name="connector.queue.timetolive" value="0"/>
+            <property name="connector.queue.sequence.field.value" value=""/>
+            <property name="connector.queue.priority" value="4"/>
+            <property name="connector.queue.destination" value="FSPH_WebPASOut_Topic"/>
+            <property name="connector.base.systemalert.configchanged" value="false"/>
+            <property name="connector.base.inputschema" value=""/>
+            <property name="connector.base.connector.type.mode" value="oneway"/>
+            <property name="connector.queue.sequence.manager.key" value=""/>
+            <property name="connector.queue.sequence.pass.through.value" value=""/>
+            <property name="connector.base.connectretries" value="50"/>
+            <property name="connector.base.sendretries" value="5"/>
+            <property name="connector.base.systemalert.queuelimited" value="false"/>
+        </baseproperties>
+    </profile>
+    <profile autoconnect="No" desc="" id="d4aa4120-5e22-11ed-975d-d5f2c241f8f9" name="FSPH_WEBPAS_ADT_MESSAGES" providerID="com.bf.connectionprofile.hl7.listener.connectionProfile">
+        <baseproperties>
+            <property name="listener.base.loglevel" value="INFO"/>
+            <property name="listener.base.messagebanking.failprocessonfailure" value="false"/>
+            <property name="listener.base.logmaxbackups" value="5"/>
+            <property name="listener.hl7.successackdesc" value="Success"/>
+            <property name="listener.hl7.errorackdesc" value="An error occured processing message."/>
+            <property name="userdefined.properties" value=""/>
+            <property name="listener.base.systemalert.stop" value="false"/>
+            <property name="listener.base.logdestination" value="file"/>
+            <property name="listener.base.messagebanking.enabled" value="false"/>
+            <property name="listener.base.systemalert.start" value="false"/>
+            <property name="listener.tcp.is.message.throttling" value="false"/>
+            <property name="listener.base.systemalert.slowmsgprocessingtext" value="300"/>
+            <property name="listener.hl7.rejectackdesc" value="Message rejected."/>
+            <property name="listener.base.systemalert.configchanged" value="false"/>
+            <property name="listener.hl7.recordseparatorchar" value="&lt;CR&gt;"/>
+            <property name="listener.hl7.successackcode" value="AA"/>
+            <property name="listener.hl7.errorackcode" value="AE"/>
+            <property name="listener.tcp.startofmessagechar" value="&lt;VT&gt;"/>
+            <property name="listener.base.loglocationtype" value="default"/>
+            <property name="listener.base.startmode" value="manual"/>
+            <property name="listener.base.trace.message.properties" value="false"/>
+            <property name="listener.base.systemalert.msgprocessfailed" value="false"/>
+            <property name="listener.hl7.rejectackcode" value="AR"/>
+            <property name="listener.tcp.endofmessagechar" value="&lt;FS&gt;"/>
+            <property name="listener.base.enabletrace" value="false"/>
+            <property name="listener.base.systemalert.enabled" value="false"/>
+            <property name="listener.base.systemalert.notreceived" value="false"/>
+            <property name="listener.base.enabledumpinitialmessage" value="false"/>
+            <property name="listener.base.logrolloverinterval" value="daily"/>
+            <property name="listener.hl7.acksource" value="message."/>
+            <property name="listener.base.requires.response" value="true"/>
+            <property name="listener.tcp.port" value="3002"/>
+            <property name="listener.hl7.endofsegmentchar" value="&lt;CR&gt;"/>
+            <property name="listener.base.trace.message.properties.mapname" value=""/>
+            <property name="listener.base.sendretryinterval" value="200"/>
+            <property name="listener.base.systemalert.slowmsgprocessing" value="false"/>
+            <property name="listener.tcp.buffersize" value="65536"/>
+            <property name="listener.tcp.encoding" value="Default"/>
+            <property name="listener.base.sendretries" value="5"/>
+            <property name="listener.base.stoponexception" value="false"/>
+            <property name="listener.base.listenerretryinterval" value="2000"/>
+            <property name="listener.tcp.enablesecurity" value="false"/>
+            <property name="listener.base.enablevml" value="false"/>
+            <property name="listener.base.systemalert.notreceivedtext" value="60"/>
+            <property name="listener.tcp.message.process.rate.unit" value="Hour"/>
+            <property name="listener.base.startmode.signalname" value=""/>
+            <property name="listener.base.transactiontimeout" value="300"/>
+            <property name="listener.tcp.message.process.rate" value="1"/>
+            <property name="listener.tcp.receivetimeout" value="0"/>
+            <property name="listener.base.messagebanking.sendalertonfailure" value="false"/>
+            <property name="listener.tcp.hardtimeout" value="0"/>
+            <property name="listener.base.listenerretries" value="5"/>
+            <property name="listener.tcp.socketmode" value="Server"/>
+            <property name="listener.base.enabletransactions" value="false"/>
+        </baseproperties>
+    </profile>
+</DataTools.ServerProfiles>
